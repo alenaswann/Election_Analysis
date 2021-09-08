@@ -24,33 +24,28 @@
 The analysis of the election results shows that:
 
 - **There were 369,711 votes cast in this election.**
-<br/>
 - The counties that voted in this election were:
 	- Jefferson 
 	- Denver
 	- Arapahoe
-<br/>
 - The county results were:
 	- Jefferson County cast 10.5% of the vote with 38,855 votes
 	- Denver County cast 82.8% of the vote with 306,055 votes
 	- Arapahoe County cast 6.7% of the vote with 24,801 votes
-<br/>
 - **The county with the largest voter turnout was Denver County with 306,055 votes, making up 82.8% of the total votes.**
 - The candidates that received votes were:
 	- Charles Casper Stockham
 	- Diana DeGette
 	- Raymon Anthony Doane
-<br/>
 - The candidate results were:
 	- Charles Casper Stockham received 23.0% of the vote with 85,213 votes.
 	- Diana DeGette received 73.8% of the vote with 272,892 votes.
 	- Raymon Anthony Doane received 3.1% of the vote with 11,606 votes.
-<br/>
 - **The winner of the election was Diana DeGette with 272,892 votes, winning 73.8% of the popular vote.**
 
 ![Election Results](Resources/Election_Results.PNG)
 
-##Future Use of Audit Code
+## Future Use of Audit Code
 I propose using this script for future election audits as a means of quickly summarizing election results with several modifications as necessary. 
 
 The script may need to be modified to specify the appropriate index that holds the needed information, depending on the structure of data source. In this current case, the csv file stored the county name in the second column (or index 1) and the candidate name in the third column (index 2). The index used in these variables (`county_name = row[1]` and `candidate_name = row[2]`) may need to be adjusted to match the appropriate index in future data files.
